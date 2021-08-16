@@ -1,0 +1,28 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, Sans-Serif, serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+p {
+  padding: 1rem;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: coral;
+}
+
+.footer {
+  font-size: x-small;
+}
+
+.not-found{
+  font-size: xx-large;
+  font-weight: bold;
+}
