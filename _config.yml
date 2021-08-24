@@ -1,0 +1,44 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Lazery Attack
+description:
+baseurl: ""
+url: "https://www.lazeryattack.com"
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+  sass_dir: _sass
+plugins:
+  - jekyll-redirect-from
+plugins_dir: jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# About/contact
+email: hi@lazeryattack.com
+author:
+  name: Mark Collin
+  contact:
+    linkedin: https://www.linkedin.com/in/ardesco/
+    github: https://github.com/ardesco
+    twitter: https://twitter.com/ardesco

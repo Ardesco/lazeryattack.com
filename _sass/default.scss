@@ -12,17 +12,17 @@ p {
 
 a {
   color: red;
-}
 
-a:hover {
-  color: coral;
+  :hover {
+    color: coral;
+  }
 }
 
 .footer {
   font-size: x-small;
 }
 
-.not-found{
+.not-found {
   font-size: xx-large;
   font-weight: bold;
 }
